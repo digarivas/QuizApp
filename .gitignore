@@ -1,0 +1,29 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Registros y variables de entorno
+*.log
+.env
+.env.*
+
+# Secretos y certificados
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Configuración local de editores
+.obsidian/
+.vscode/
+.idea/
+*.swp
+
+# Dependencias y artefactos de compilación
+node_modules/
+dist/
+build/
+
+# Archivos de estado locales
+.estado.md
+*.local
